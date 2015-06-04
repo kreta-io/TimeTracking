@@ -15,9 +15,9 @@ use Kreta\Component\TimeTracking\Factory\TimeEntryFactory;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use Symfony\Component\Form\FormBuilder;
-use Symfony\Component\OptionsResolver\OptionsResolverInterface;
+use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
-use Symfony\Component\Security\Core\SecurityContextInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
@@ -28,7 +28,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 class TimeEntryTypeSpec extends ObjectBehavior
 {
     function let(
-        SecurityContextInterface $context,
+        TokenStorageInterface $context,
         TokenInterface $token,
         UserInterface $user,
         TimeEntryFactory $factory
@@ -57,7 +57,7 @@ class TimeEntryTypeSpec extends ObjectBehavior
         $this->buildForm($builder, []);
     }
 
-    function it_sets_default_options(OptionsResolverInterface $resolver)
+    function it_sets_default_options(OptionsResolver $resolver)
     {
         $resolver->setDefaults(Argument::withEntry('data_class', 'Kreta\Component\TimeTracking\Model\TimeEntry'))
             ->shouldBeCalled()->willReturn($resolver);
@@ -67,7 +67,7 @@ class TimeEntryTypeSpec extends ObjectBehavior
             ->shouldBeCalled()->willReturn($resolver);
         $resolver->setRequired(['issue'])->shouldBeCalled()->willReturn($resolver);
 
-        $this->setDefaultOptions($resolver);
+        $this->configureOptions($resolver);
     }
 
     function it_gets_name()
