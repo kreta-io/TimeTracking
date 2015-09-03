@@ -4,11 +4,11 @@
 [![Build Status](https://travis-ci.org/kreta-plugins/TimeTracking.svg?branch=master)](https://travis-ci.org/kreta-plugins/TimeTracking)
 [![Coverage Status](https://img.shields.io/coveralls/kreta-plugins/TimeTracking.svg)](https://coveralls.io/r/kreta-plugins/TimeTracking)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kreta-plugins/TimeTracking/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kreta-plugins/TimeTracking/?branch=master)
-[![HHVM Status](http://hhvm.h4cc.de/badge/kreta-plugins/user.svg)](http://hhvm.h4cc.de/package/kreta-plugins/user)
-[![Total Downloads](https://poser.pugx.org/kreta-plugins/user/downloads)](https://packagist.org/packages/kreta-plugins/user)
+[![HHVM Status](http://hhvm.h4cc.de/badge/kreta/kreta/time-tracking.svg)](http://hhvm.h4cc.de/package/kreta/time-tracking)
+[![Total Downloads](https://poser.pugx.org/kreta/time-tracking/downloads)](https://packagist.org/packages/kreta/time-tracking)
 
-[![Latest Stable Version](https://poser.pugx.org/kreta-plugins/user/v/stable.svg)](https://packagist.org/packages/kreta-plugins/user)
-[![Latest Unstable Version](https://poser.pugx.org/kreta-plugins/user/v/unstable.svg)](https://packagist.org/packages/kreta-plugins/user)
+[![Latest Stable Version](https://poser.pugx.org/kreta/time-tracking/v/stable.svg)](https://packagist.org/packages/kreta/time-tracking)
+[![Latest Unstable Version](https://poser.pugx.org/kreta/time-tracking/v/unstable.svg)](https://packagist.org/packages/kreta/time-tracking)
 
 Tests
 -----
@@ -56,4 +56,4 @@ Kreta TimeTracking Component is created by:
 
 Licensing Options
 -----------------
-[![License](https://poser.pugx.org/kreta-plugins/user/license.svg)](https://github.com/kreta/kreta/blob/master/LICENSE)
+[![License](https://poser.pugx.org/kreta/time-tracking/license.svg)](https://github.com/kreta/kreta/blob/master/LICENSE)
