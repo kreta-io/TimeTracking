@@ -1,14 +1,14 @@
 # Kreta Time Tracking Component
 > Time tracking component of Kreta: modern project manager for software development.
 
-[![Build Status](https://travis-ci.org/kreta-io/TimeTracking.svg?branch=master)](https://travis-ci.org/kreta-io/TimeTracking)
-[![Coverage Status](https://img.shields.io/coveralls/kreta-io/TimeTracking.svg)](https://coveralls.io/r/kreta-io/TimeTracking)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kreta-io/TimeTracking/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kreta-io/TimeTracking/?branch=master)
-[![HHVM Status](http://hhvm.h4cc.de/badge/kreta/user.svg)](http://hhvm.h4cc.de/package/kreta/user)
-[![Total Downloads](https://poser.pugx.org/kreta/user/downloads)](https://packagist.org/packages/kreta/user)
+[![Build Status](https://travis-ci.org/kreta-plugins/TimeTracking.svg?branch=master)](https://travis-ci.org/kreta-plugins/TimeTracking)
+[![Coverage Status](https://img.shields.io/coveralls/kreta-plugins/TimeTracking.svg)](https://coveralls.io/r/kreta-plugins/TimeTracking)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kreta-plugins/TimeTracking/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kreta-plugins/TimeTracking/?branch=master)
+[![HHVM Status](http://hhvm.h4cc.de/badge/kreta-plugins/user.svg)](http://hhvm.h4cc.de/package/kreta-plugins/user)
+[![Total Downloads](https://poser.pugx.org/kreta-plugins/user/downloads)](https://packagist.org/packages/kreta-plugins/user)
 
-[![Latest Stable Version](https://poser.pugx.org/kreta/user/v/stable.svg)](https://packagist.org/packages/kreta/user)
-[![Latest Unstable Version](https://poser.pugx.org/kreta/user/v/unstable.svg)](https://packagist.org/packages/kreta/user)
+[![Latest Stable Version](https://poser.pugx.org/kreta-plugins/user/v/stable.svg)](https://packagist.org/packages/kreta-plugins/user)
+[![Latest Unstable Version](https://poser.pugx.org/kreta-plugins/user/v/unstable.svg)](https://packagist.org/packages/kreta-plugins/user)
 
 Tests
 -----
@@ -40,7 +40,7 @@ documentation. If you are submitting a pull request, please follow the guideline
 in the [Submitting a Patch][3] section and use the [Pull Request Template][4].
 
 If you have any doubt or maybe you want to share some opinion, you can use our **Gitter chat**.
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kreta-io/kreta?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kreta/kreta?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [1]: http://www.phpspec.net/
 [2]: http://symfony.com/doc/current/contributing/code/index.html
@@ -56,4 +56,4 @@ Kreta TimeTracking Component is created by:
 
 Licensing Options
 -----------------
-[![License](https://poser.pugx.org/kreta/user/license.svg)](https://github.com/kreta-io/kreta/blob/master/LICENSE)
+[![License](https://poser.pugx.org/kreta-plugins/user/license.svg)](https://github.com/kreta/kreta/blob/master/LICENSE)
