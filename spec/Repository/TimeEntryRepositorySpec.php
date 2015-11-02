@@ -1,12 +1,13 @@
 <?php
 
 /*
- * This file belongs to Kreta.
- * The source code of application includes a LICENSE file
- * with all information about license.
+ * This file is part of the Kreta package.
  *
- * @author benatespina <benatespina@gmail.com>
- * @author gorkalaucirica <gorka.lauzirika@gmail.com>
+ * (c) Beñat Espiña <benatespina@gmail.com>
+ * (c) Gorka Laucirica <gorka.lauzirika@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace spec\Kreta\Component\TimeTracking\Repository;
@@ -22,9 +23,7 @@ use Kreta\Component\TimeTracking\Model\Interfaces\TimeEntryInterface;
 use Prophecy\Argument;
 
 /**
- * Class TimeEntryRepositorySpec
- *
- * @package spec\Kreta\Component\TimeTracking\Repository
+ * Class TimeEntryRepositorySpec.
  */
 class TimeEntryRepositorySpec extends BaseEntityRepository
 {
@@ -51,8 +50,7 @@ class TimeEntryRepositorySpec extends BaseEntityRepository
         AbstractQuery $query,
         IssueInterface $issue,
         TimeEntryInterface $timeEntry
-    )
-    {
+    ) {
         $this->getQueryBuilderSpec($manager, $queryBuilder);
         $this->addCriteriaSpec($queryBuilder, $expr, ['issue' => $issue], $comparison);
         $this->orderBySpec($queryBuilder, ['dateReported' => 'ASC']);
