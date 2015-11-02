@@ -24,7 +24,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * Class TimeEntryTypeSpec.
  */
-class TImeEntryTypeSpec extends ObjectBehavior
+class TimeEntryTypeSpec extends ObjectBehavior
 {
     function let(
         TokenStorageInterface $context,
