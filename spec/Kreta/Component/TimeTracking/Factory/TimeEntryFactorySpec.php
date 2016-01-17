@@ -17,6 +17,9 @@ use PhpSpec\ObjectBehavior;
 
 /**
  * Class TimeEntryFactorySpec.
+ *
+ * @author Beñat Espiña <benatespina@gmail.com>
+ * @author Gorka Laucirica <gorka.lauzirika@gmail.com>
  */
 class TimeEntryFactorySpec extends ObjectBehavior
 {

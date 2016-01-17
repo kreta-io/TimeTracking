@@ -19,6 +19,9 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
  * Class TimeEntryType.
+ *
+ * @author Beñat Espiña <benatespina@gmail.com>
+ * @author Gorka Laucirica <gorka.lauzirika@gmail.com>
  */
 class TimeEntryType extends AbstractType
 {

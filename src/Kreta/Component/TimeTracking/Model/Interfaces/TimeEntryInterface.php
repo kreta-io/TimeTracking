@@ -16,6 +16,9 @@ use Kreta\Component\Issue\Model\Interfaces\IssueInterface;
 
 /**
  * Interface TimeEntryInterface.
+ *
+ * @author Beñat Espiña <benatespina@gmail.com>
+ * @author Gorka Laucirica <gorka.lauzirika@gmail.com>
  */
 interface TimeEntryInterface
 {

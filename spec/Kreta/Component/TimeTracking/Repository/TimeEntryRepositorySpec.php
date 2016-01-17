@@ -24,6 +24,9 @@ use Prophecy\Argument;
 
 /**
  * Class TimeEntryRepositorySpec.
+ *
+ * @author Beñat Espiña <benatespina@gmail.com>
+ * @author Gorka Laucirica <gorka.lauzirika@gmail.com>
  */
 class TimeEntryRepositorySpec extends BaseEntityRepository
 {

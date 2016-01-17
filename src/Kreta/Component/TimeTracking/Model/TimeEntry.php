@@ -17,6 +17,9 @@ use Kreta\Component\TimeTracking\Model\Interfaces\TimeEntryInterface;
 
 /**
  * Class TimeEntry.
+ *
+ * @author Beñat Espiña <benatespina@gmail.com>
+ * @author Gorka Laucirica <gorka.lauzirika@gmail.com>
  */
 class TimeEntry implements TimeEntryInterface
 {
